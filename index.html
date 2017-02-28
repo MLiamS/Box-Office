@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script
   src="https://code.jquery.com/jquery-3.1.1.js"
   integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
@@ -15,18 +15,18 @@
   <div class="container">
     <h1>Movie Tickets</h1>
     <div class="row">
-      <form>
+      <form id="form">
         <div class="col-sm-4">
           <div class="well">
             <div class="radio">
               <label>
-                <input type="radio" name="movie" value="Lebowski" checked>
+                <input type="radio" name="movie" value="The Big Lebowski" checked>
                 The Big Lebowski
               </label>
             </div>
             <div class="radio">
               <label>
-                <input type="radio" name="movie" value="Saving">
+                <input type="radio" name="movie" value="Saving Private Ryan">
                 Saving Private Ryan
               </label>
             </div>
@@ -44,14 +44,14 @@
             </div>
             <div class="radio">
               <label>
-                <input type="radio" name="movie" value="Toy">
+                <input type="radio" name="movie" value="Toy Story">
                 Toy Story
               </label>
             </div>
             <div class="radio">
               <label>
-                <input type="radio" name="movie" value="Vanilla">
-                Vanilla Sky
+                <input type="radio" name="movie" value="The Rock">
+                The Rock
               </label>
             </div>
           </div>
@@ -60,37 +60,37 @@
           <div class="well">
             <div class="radio">
               <label>
-                <input type="radio" name="movieTime" value="twelveThrity" checked>
+                <input type="radio" name="movieTime" value="12:30" checked>
                 12:30 PM
               </label>
             </div>
             <div class="radio">
               <label>
-                <input type="radio" name="movieTime" value="twoThrity">
+                <input type="radio" name="movieTime" value="14:30">
                 2:30 PM
               </label>
             </div>
             <div class="radio">
               <label>
-                <input type="radio" name="movieTime" value="twelveThrity">
+                <input type="radio" name="movieTime" value="17:00">
                 5:00 PM
               </label>
             </div>
             <div class="radio">
               <label>
-                <input type="radio" name="movieTime" value="sevenThirty">
+                <input type="radio" name="movieTime" value="19:30">
                 7:30 PM
               </label>
             </div>
             <div class="radio">
               <label>
-                <input type="radio" name="movieTime" value="nine">
+                <input type="radio" name="movieTime" value="21:00">
                 9:00 PM
               </label>
             </div>
             <div class="radio">
               <label>
-                <input type="radio" name="movieTime" value="tenThirty">
+                <input type="radio" name="movieTime" value="22:30">
                 10:30 PM
               </label>
             </div>
@@ -111,10 +111,7 @@
     </div>
     <div class="row">
       <div class="well">
-        <ul>
-          <li>x</li>
-          <li>x</li>
-          <li>x</li>
+        <ul class="result">
         </ul>
 
       </div>
